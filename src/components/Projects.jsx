@@ -6,10 +6,13 @@ import {guessNum,todo,password,tictak,pwskills, currency } from '../assets/techl
 
 function Projects() {
   const cardItems=[      // array of objects
-    // {
-    //   id: 1,
-    //   name: portfolio,
-    // },
+    {
+      id: 1,
+      name: "portfolio",
+      gitref: "https://github.com/Nancy-geek/To-Do",
+      live: "https://nancygupta-portfolio.netlify.app/"
+
+    },
     {id:2,
       pic:todo,
       name:"To-Do",
