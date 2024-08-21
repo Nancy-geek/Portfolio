@@ -64,7 +64,7 @@ function Projects() {
 
   return (
     <>
-   <div id="Projects" className='m-1 p-2 md:m-4 md:p-4'>
+   <div id="Projects" className='m-1 p-2 mt-3 md:m-4 md:p-4'>
    <h1 className='text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-Bodoni+Moda+SC  font-semibold'>Projects ..</h1>
 
    <div className='flex  justify-center  flex-wrap sm:grid sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 pt-3' >

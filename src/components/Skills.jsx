@@ -9,10 +9,10 @@ import {Html, Css, tailwind, JS, react, flutter,dart,git, github,netlify} from '
 function Skills() {
   return (
     <>
-    <div id="Skills" className='m-1 p-2 md:m-4 md:p-4'>
+    <div id="Skills" className='m-1 p-2 mt-3 md:m-4 md:p-4'>
     <h1 className=' text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-Bodoni+Moda+SC  font-semibold'>Skill-Set..</h1>
 
-    <div class=" z-10 flex  flex-wrap space-x-4 md:space-x-8 space-y-5 md:space-y-8 md:flex flex-row w-full bg-slate-800 text-white p-1 sm:p-6  sm:px-5 mt-4 ">
+    <div class=" z-10 flex flex-wrap justify-center px-auto  space-x-4 md:space-x-8 space-y-5 md:space-y-8 md:flex  w-full bg-slate-800 text-white p-1 sm:p-6  sm:px-5 mt-4 ">
     {/* <Card/> */}
     {/* no need of making any different jsx file for passing prop here as everything is different in each card , very lil similarities or common things are there so no much of making another file and passing elements as arguments in it */}
     
@@ -23,7 +23,7 @@ function Skills() {
              {/* <h1></h1> */}
              {/* <p class="font-bold text-3xl font-bold underline hover:underline-offset-4 ">Frontend</p> */}
              {/* <ul className=' flex flex-wrap  space-x-7 space-y-2 mt-3'> */}
-            <div className=' bg-slate-200  rounded-md  w-32 h-32 mt-4 mx-3 border-b-4 p-1  shadow-md hover:shadow-slate-200 border-red-400 '><img src={Html} alt="" className='' /></div>
+            <div className=' bg-slate-200  rounded-md  w-32 h-32 mt-6 mx-3 border-b-4 p-1  shadow-md hover:shadow-slate-200 border-red-400 '><img src={Html} alt="" className='' /></div>
            
             <div className=' bg-slate-200 rounded-md p-1  w-32 h-32 bg-contain overflow-hidden border-b-4 shadow-md hover:shadow-slate-200 border-blue-400'><img src={Css} alt="" className='w-32 h-32 ' /></div>
             

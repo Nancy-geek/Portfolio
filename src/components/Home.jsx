@@ -73,7 +73,7 @@ function Home() {
       {/* pic div */}
       <div className='md:w-1/2 flex justify-center mt-4 '>
       <div className='flex'>
-      <div className=' p-1 max-h-[18rem] sm:max-h-[19rem] max-w-[19rem] rounded-full bg-cover overflow-clip bg-gray-700 border-solid  border-white border-x-2 animate-fade-in shadow-lg z-10 shadow-slate-600 hover:shadow-slate-500 '>
+      <div className=' p-1 max-h-[18rem] max-w-[18rem] sm:max-h-[19rem] sm:max-w-[19rem] rounded-full bg-cover overflow-clip bg-gray-700 border-solid  border-white border-x-2 animate-fade-in shadow-lg z-10 shadow-slate-600 hover:shadow-slate-500 '>
       <img className='flex' src={pic} alt="Image" />
       </div>
       </div>

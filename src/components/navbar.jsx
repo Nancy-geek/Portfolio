@@ -47,7 +47,7 @@ function Navbar() {
             <li class="mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded"><AnchorLink className='anchor-link' href='#Education'>Education</AnchorLink></li>
             <li class="mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded"><AnchorLink className='anchor-link' href='#Contact'>Contact </AnchorLink></li>
 
-            <li class=" mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded border-4 border-emerald-300 bg-slate-800" ><button className=''>RESUME</button></li>
+            <li class=" mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded border-4 border-emerald-300 bg-slate-800" ><a href="https://drive.google.com/file/d/16e_dwfBfizLqs9z_0qujLJbWoWaq1BBg/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className=''>RESUME</button></a></li>
 
              {
             //   navItems.map( ({id,text }) =>(
@@ -71,11 +71,11 @@ function Navbar() {
         
       </div>
 
-      <div className={`flex-col  md:hidden justify-self-center items-center m-auto h-full w-full bg-slate-900 text-white 
+      <div className={`flex-col  md:hidden justify-self-center items-center m-auto h-full w-full bg-slate-950 text-white 
          ${menu ? " hidden  " : "bg-opacity-95 z-20 fixed "}` }>
 
           
-          <ul className='space-y-4 flex-wrap h-screen justify-center text-center bg-slate-800 mx-auto py-20 mt-10 '>
+          <ul className='space-y-4 flex-wrap h-screen justify-center al text-center bg-slate-800 mx-auto py-20 mt-10 '>
 
           {/* <li class="mx-3 p-2 text-xl cursor-pointer hover:underline hover:text-emerald-100 hover:font-semibold
           hover:bg-opacity-10 rounded">Home</li> */}
@@ -85,6 +85,8 @@ function Navbar() {
             <li class="mx-3 p-2  text-xl cursor-pointer hover:underline hover:text-emerald-100 hover:font-bold  hover:bg-opacity-10 rounded duration-150"><AnchorLink onClick={()=>setMenu(!menu)}  className='anchor-link' href='#Projects'>Projects</AnchorLink></li>
             <li class="mx-3 p-2  text-xl cursor-pointer hover:underline hover:text-emerald-100 hover:font-bold  hover:bg-opacity-10 rounded duration-150"><AnchorLink onClick={()=>setMenu(!menu)}  className='anchor-link' href='#Education'>Education</AnchorLink></li>
             <li class="mx-3 p-2  text-xl cursor-pointer hover:underline hover:text-emerald-100 hover:font-bold  hover:bg-opacity-10 rounded duration-150"><AnchorLink onClick={()=>setMenu(!menu)} className='anchor-link' href='#Contact'>Contact</AnchorLink> </li>
+            
+            <li class=" mx-auto p-2 w-20 my-auto cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded border-4 border-emerald-300 bg-slate-800" ><a href="https://drive.google.com/file/d/16e_dwfBfizLqs9z_0qujLJbWoWaq1BBg/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className=''>RESUME</button></a></li>
           </ul>
           
         </div>
