@@ -54,10 +54,10 @@ function Contact() {
     }
   };
   return (
-    <div id='Contact' className='m-4 p-4 '>
-    <h1 className='text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-dancingCursive  font-semibold'>Contact ..</h1>
+    <div id='Contact' className='sm:m-1 p-2 md:m-4 md:p-4 '>
+    <h1 className='text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-Bodoni+Moda+SC  font-semibold'>Contact ..</h1>
 
-    <div className='m-2 p-5 text-white bg-slate-700   rounded'>
+    <div className='m-1 p-1 sm:p-5 text-white bg-slate-700 rounded'>
    
     <h1 className=' my-4 w-full text-2xl sm:text-3xl font-bold text-center space-x-2'>
       <span className='text-fuchsia-400'>Get</span> 
@@ -68,9 +68,9 @@ function Contact() {
         <div className='md:w-1/3 flex justify-center items-center sm:block  hidden'><img className=' m-3 rounded-md text-3xl text-emerald-400 text-center' src="https://media.licdn.com/dms/image/D4D12AQHrCokf1Hxljw/article-cover_image-shrink_600_2000/0/1717059351461?e=2147483647&v=beta&t=vCD74FPN5u2k_TVIpwcgBY6gFwlLFaiVfuX5U0Y7GJQ"
          alt='Lets Connect...' /></div>
 
-        <form onSubmit={submitting} className='w-full md:w-4/5 mx-3 p-1 sm:space-x-3 space-y-2 text-black font-semibold' action="">
+        <form onSubmit={submitting} className='w-full md:w-4/5 sm:mx-1 p-1 sm:space-x-3 space-y-2 text-black font-semibold' action="">
 
-          <div className='  w-full  px-2 m-1 mx-2 flex sm:justify-end'>
+          <div className='  w-full  px-2 m-1 sm:mx-2 flex sm:justify-end'>
             <input className=' w-full md:w-4/5 h-9 m-2 rounded-md px-2 capitalize hover:border-2  border-fuchsia-600'
             type="text" placeholder='Name' name="your name" id="name" required/>
           </div>

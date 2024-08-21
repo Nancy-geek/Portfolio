@@ -29,7 +29,7 @@ function Navbar() {
 // ReactDOM.render(element, document.body)
   return (
     <>
-    <div class={` w-full h-auto bg-slate-900 text-white p-3 pt-4 flex justify-between  fixed z-20
+    <div class={` w-full h-auto bg-slate-900 text-white p-3 pt-4 flex justify-between  fixed z-30
       bg-opacity-[0.95]
      `}>
       {/* ${menu ? "bg-opacity-95":" opacity-90 z-10 md:bg-opacity-95" }   no much need of this in above div*/}       
@@ -71,11 +71,11 @@ function Navbar() {
         
       </div>
 
-      <div className={`flex-col  md:hidden justify-self-center items-center m-auto h-full w-full bg-slate-900 text-white z-10 
-         ${menu ? "hidden " : "bg-opacity-95  z-50 shadow-lg "}` }>
+      <div className={`flex-col  md:hidden justify-self-center items-center m-auto h-full w-full bg-slate-900 text-white 
+         ${menu ? " hidden  " : "bg-opacity-95 z-20 fixed "}` }>
 
           
-          <ul className='space-y-4 flex-wrap h-screen justify-center text-center  mx-auto py-20 mt-10 '>
+          <ul className='space-y-4 flex-wrap h-screen justify-center text-center bg-slate-800 mx-auto py-20 mt-10 '>
 
           {/* <li class="mx-3 p-2 text-xl cursor-pointer hover:underline hover:text-emerald-100 hover:font-semibold
           hover:bg-opacity-10 rounded">Home</li> */}

@@ -11,8 +11,8 @@ import { RiGraduationCapFill } from "react-icons/ri";
 function Education() {
   return (
     <>
-    <div id="Education" className='m-3 p-4'>
-        <h1 className='text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-dancingCursive  font-semibold'>Education ..</h1>
+    <div id="Education" className=' m-1 p-2  md:m-3 md:p-4'>
+        <h1 className='text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-Bodoni+Moda+SC  font-semibold'>Education ..</h1>
 
         <div className='md:ml-40 '>
         <VerticalTimeline animate={true} layout='1-column-left'  lineColor='grey'  >
@@ -30,7 +30,7 @@ function Education() {
           <p>grade: CGPA: 8.9</p>
           <span className=' flex'>
          <span className='font-semibold text-sm sm:text-base'> Activities and societies: &nbsp;</span> table tennis , team management,
-         <br />JEE percentile (2023 partial dropper) : 96 %
+         <br />JEE percentile (2023 partial dropper): 96%ile
          </span>
          
          
@@ -48,7 +48,7 @@ function Education() {
           <h2 className='font-bold underline'>children academy convent school</h2>
           <p>grade: 12th : 88%</p>
           <span className=' flex'>  
-         <span className='font-semibold text-sm sm:text-base'> others: &nbsp;</span> JEE percentile (2022) : 93.15 %
+         <span className='font-semibold text-sm sm:text-base'> others: &nbsp;</span> JEE percentile (2022): 93.15%ile
          </span>
         </VerticalTimelineElement>
 

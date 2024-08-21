@@ -6,13 +6,13 @@ import {guessNum,todo,password,tictak,pwskills, currency } from '../assets/techl
 
 function Projects() {
   const cardItems=[      // array of objects
-    {
-      id: 1,
-      name: "portfolio",
-      gitref: "https://github.com/Nancy-geek/To-Do",
-      live: "https://nancygupta-portfolio.netlify.app/"
+    // {
+    //   id: 1,
+    //   name: "portfolio",
+    //   gitref: "https://github.com/Nancy-geek/To-Do",
+    //   live: "https://nancygupta-portfolio.netlify.app/"
 
-    },
+    // },
     {id:2,
       pic:todo,
       name:"To-Do",
@@ -64,14 +64,14 @@ function Projects() {
 
   return (
     <>
-   <div id="Projects" className='m-4 p-4'>
-   <h1 className='text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-dancingCursive  font-semibold'>Projects ..</h1>
+   <div id="Projects" className='m-1 p-2 md:m-4 md:p-4'>
+   <h1 className='text-3xl md:text-4xl text-emerald-200 space-x-2 pb-5 underline underline-offset-8 font-Bodoni+Moda+SC  font-semibold'>Projects ..</h1>
 
-   <div className='flex flex-wrap justify-center  sm:grid sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 pt-3' >
+   <div className='flex  justify-center  flex-wrap sm:grid sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 pt-3' >
     {                       // curly braces for adding elements ....remember
      cardItems.map(({id,pic,name,gitref, live})=>(
 
-      <div key={id} className=' flex flex-col justify-between min-h-44 max-h-52 max-w-52 border-white border-[2px] shadow-lg rounded-md pt-0 m-2 bg-cover relative overflow-hidden '>
+      <div key={id} className=' flex flex-col justify-between min-h-48 max-h-52 max-w-56 border-white border-[2px] shadow-lg rounded-md pt-0 m-2 bg-cover relative overflow-hidden '>
         
         <img className="bg-cover" src={pic} alt="" />
 

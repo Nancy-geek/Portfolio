@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
     <div className=' flex justify-between p-3  w-full bg-slate-950 text-white h-14'>
-        <p className='mx-12'>Developed with ❤️ by Nancy Gupta</p>
+        <p className='mx-12 hover:underline hover:underline-offset-4'>Developed with ❤️ by Nancy Gupta</p>
 
         <div className=' hidden sm:flex space-x-4 mr-4 p-1 '>
           <ul className=" flex space-x-4 px-1 md:text-2xl">

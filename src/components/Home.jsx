@@ -21,12 +21,12 @@ function Home() {
   
   return (
     <>
-    <div id="Home" className='max-w-screen-2xl  p-4 flex mt-16 md:mt-24' >
+    <div id="Home" className='max-w-screen-2xl  p-3 sm:p-4 flex mt-12 md:mt-24' >
     
     <div className=' flex flex-col-reverse md:flex-row  flex-shrink md:justify-start h-1/2  mx-auto w-full my-4 text-xl '>
        
        {/* name div */}
-      <div className=' m-3 p-4 px-2 px-6 md:w-1/2 flex flex-col justify-center md:justify-start max-w-full md:ml-7  space-y-2'>
+      <div className=' m-1 p-4 px-2 px-6 md:w-1/2 flex flex-col justify-center md:justify-start max-w-full md:ml-7  space-y-2'>
       <h1 className='flex  justify-center md:justify-start'> Hi &#128075;,  I am </h1>
       <h1 className=' flex justify-center md:justify-start  font-bold  text-4xl sm:text-5xl text-green-200'> Nancy Gupta. </h1>
       <br />
@@ -49,7 +49,7 @@ function Home() {
        <div className='space-y-5 md:px-3 flex flex-col items-center md:place-items-start'>
 
         <div >
-        <h1 className=" font-bold  text-red-200 hover:text-emerald-300 " 
+        <h1 className=" font-bold  text-red-200 hover:text-emerald-300 flex justify-center" 
         onMouseEnter={handleMouseOver} onMouseLeave={handleMouseStop}> Available on</h1>
 
         <div className={`bg-slate-100 h-[1.2px]  w-24 mt-1 mx-3 flex justify-center 
