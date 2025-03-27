@@ -14,7 +14,8 @@ import password from './projects/password.png'
 import tictak from './projects/tictak.png'
 import pwskills from './projects/pwskills.png'
 import currency from './projects/currency.png'
+import ecom from './projects/ecom.png'
 
 
 export {Css, Html,tailwind, JS, react, flutter, dart, git,github,netlify,   }
-export {guessNum, todo, password, tictak, pwskills, currency}
+export {guessNum, todo, password, tictak, pwskills, currency, ecom}

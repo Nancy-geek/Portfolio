@@ -47,13 +47,13 @@ function Navbar() {
             <li class="mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded"><AnchorLink className='anchor-link' href='#Education'>Education</AnchorLink></li>
             <li class="mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded"><AnchorLink className='anchor-link' href='#Contact'>Contact </AnchorLink></li>
 
-            <li class=" mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded border-4 border-emerald-300 bg-slate-800" ><a href="https://drive.google.com/file/d/16e_dwfBfizLqs9z_0qujLJbWoWaq1BBg/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className=''>RESUME</button></a></li>
+            <li class=" mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded border-4 border-emerald-300 bg-slate-800" ><a href="https://drive.google.com/drive/folders/1tDJTg3sMEMb4G4sLzwuKNAsePk8wUF71?usp=sharing" target="_blank" rel="noopener noreferrer"><button className=''>RESUME</button></a></li>
 
              {
             //   navItems.map( ({id,text }) =>(
             //     <li class="mx-3 p-2 cursor-pointer hover:underline hover:text-emerald-100 hover:font-medium hover:bg-opacity-10 rounded " key={id}> 
-            //     <AnchorLink  href='#About'>        
-            //       {/* this is not working  */}
+            //     <AnchorLink  href={text}>        
+            //       {/* this is not working  */} its working 
             //      {text} 
             //      </AnchorLink>
             //      </li>

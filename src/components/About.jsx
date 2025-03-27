@@ -22,9 +22,11 @@ function About() {
         <div className=' md:hidden  float-start '> <CiLocationArrow1  className='text-cyan-400 h-5 w-5 '/></div>
         
         <p className='text-pretty'>
-          <span className='hidden lg:flex'>As an ambitious and self-driven student with a deep passion for technology and development.My journey in tech has been fueled by a love for exploration and a desire to continuously learn and grow.</span>
-        <span className='lg:hidden '>As an ambitious frontend developer from Jaipur,Rajasthan, </span> 
-        I specialize  in <b>Frontend Development</b> with <b className='text-yellow-100'>HTML, CSS, JavaScript</b> and <b className='text-yellow-100'>React</b> with additional skills in mobile app development using <b className='text-yellow-100'>Flutter</b>.
+          {/* <span className='hidden lg:flex'>I am an ambitious and self-driven <b className='text-yellow-100'>MERN Stack developer</b> with a passion for continuous learning and exploration. Skilled in frontend development (React, HTML, CSS, JavaScript) and mobile app development using Flutter, I also have a strong foundation in Data Structures and Algorithms with Java.</span> */}
+        {/* <span className='lg:flex '> */}
+          I am an ambitious and self-driven 
+          {/* </span>  */}
+        <b className='text-yellow-100' > MERN Stack developer </b>with a passion for continuous learning and exploration. <b className='text-yellow-100'>HTML, CSS, JavaScript</b> and <b className='text-yellow-100'>React</b> with additional skills in mobile app development using <b className='text-yellow-100'>Flutter</b>.
         </p>
         </div>
 

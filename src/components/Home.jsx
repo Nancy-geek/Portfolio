@@ -43,7 +43,7 @@ function Home() {
            
        {/* can pass even array of string for displaying multiple strings in loop */}
        <br />
-       <p className=' tracking-tight md:tracking-wide mt-4   text-base text-pretty'>With a penchant for <b className='text-yellow-100'>problem-solving</b> and a knack for turning concepts into code, I specialize in <b className='text-yellow-100'>frontend development</b>  along with a skillset in mobile app development with <b className='text-yellow-100'>Flutter.</b></p>
+       <p className=' tracking-tight md:tracking-wide mt-4   text-base text-pretty'>With a penchant for <b className='text-yellow-100'>problem-solving</b> and a knack for turning concepts into code, I specialize in <b className='text-yellow-100'>MERN Stack</b>  along with a skillset in mobile app development with <b className='text-yellow-100'>Flutter.</b></p>
        <br />
 
        <div className='space-y-5 md:px-3 flex flex-col items-center md:place-items-start'>
